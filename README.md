@@ -1,6 +1,9 @@
 # BioGPT
 This repository contains the implementation of [BioGPT: Generative Pre-trained Transformer for Biomedical Text Generation and Mining](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac409/6713511?guestAccessKey=a66d9b5d-4f83-4017-bb52-405815c907b9), by Renqian Luo, Liai Sun, Yingce Xia, Tao Qin, Sheng Zhang, Hoifung Poon and Tie-Yan Liu.
 
+# Comments:
+Model 1 of 3 that I am exploring within the medical domain. The biggest hurdle in effectively leveraging AI for medical disease readmission and outcomes is the long context window problem. There are currently two methods worth exploring: Fine tuning pre-trained (older) medical models to use different attention mechanisms, or to use SOTA models and pretrain them on medical data and fine tune for our specific use case. 
+
 
 # Requirements and Installation
 
